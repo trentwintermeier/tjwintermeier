@@ -10,26 +10,17 @@
       padding: 0;
       overflow-x: auto; /* Enable horizontal scrolling */
       white-space: nowrap; /* Prevent line breaks */
-    background: #ffffff;
-    color: #000000;
-    font-family: arial, sans-serif;
-    font-size: 9px;
-    line-height: 1.8;
-    font-family: arial;
-    text-align: justify;
-    display: inline-block;
-    width: px;
+      background-color: #f4f4f4; /* Add a background color for better visibility */
     }
 
     .container-wrapper {
-      width: 100%; /* Set the width to 100% to allow content to extend horizontally */
       display: flex;
     }
 
     .content-container {
       flex: 0 0 auto; /* Prevent containers from growing */
-      width: 320px; /* Set the width to the viewport width */
-      height: 921px; /* Set the height to the viewport height */
+      width: 100vw; /* Set the width to the viewport width */
+      height: 100vh; /* Set the height to the viewport height */
       white-space: normal; /* Allow line breaks inside containers */
       box-sizing: border-box; /* Include padding and border in width calculation */
       padding: 20px; /* Optional: Add padding inside the container */
@@ -54,35 +45,20 @@
       <h1>Your Content Goes Here</h1>
       <p>This container has a fixed size of 100vw x 100vh and allows horizontal scrolling.</p>
     </div>
-<div class="container-wrapper">
-  <!-- Repeat the following block to create additional containers -->
+  </div>
+  <!-- Repeat the above block for two more containers -->
   <div class="content-container">
     <div class="content">
       <h1>Your Content Goes Here</h1>
       <p>This container has a fixed size of 100vw x 100vh and allows horizontal scrolling.</p>
     </div>
-    <div class="container-wrapper">
-  <!-- Repeat the following block to create additional containers -->
+  </div>
   <div class="content-container">
     <div class="content">
       <h1>Your Content Goes Here</h1>
       <p>This container has a fixed size of 100vw x 100vh and allows horizontal scrolling.</p>
     </div>
-    <div class="container-wrapper">
-  <!-- Repeat the following block to create additional containers -->
-  <div class="content-container">
-    <div class="content">
-      <h1>Your Content Goes Here</h1>
-      <p>This container has a fixed size of 100vw x 100vh and allows horizontal scrolling.</p>
-    </div>
-    <div class="container-wrapper">
-  <!-- Repeat the following block to create additional containers -->
-  <div class="content-container">
-    <div class="content">
-      <h1>Your Content Goes Here</h1>
-      <p>This container has a fixed size of 100vw x 100vh and allows horizontal scrolling.</p>
-    </div>
-  <!-- Repeat the above block for additional containers -->
+  </div>
 </div>
 
 </body>
